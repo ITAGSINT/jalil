@@ -1,0 +1,27 @@
+default:
+  image: debian
+stages:          # List of stages for jobs, and their order of execution
+  - deploy
+
+deploy-job:      # This job runs in the deploy stage.
+  stage: deploy  # It only runs when *both* jobs in the test stage complete successfully.
+  environment: production
+  only:
+    - main
+
+  before_script:
+    - apt update && apt install -y ssh rsync
+    - eval $(ssh-agent -s)
+    - echo "${SSH_PRIVATE_KEY}" | ssh-add -
+    - echo "StrictHostKeyChecking no" >> ~/.ssh/config
+    - export value="/var/www/jalil-$(date --iso-8601)-$(tr -dc 'A-Za-z0-9!' < /dev/urandom | head -c5;)"
+    
+  script:
+    - ssh root@batteryfor.me "echo $value"
+    - ssh root@batteryfor.me "mv /var/www/jalil $value && mkdir /var/www/jalil"
+    - rsync -auvr --progress --exclude ".git*" --exclude "tests" --exclude ".vscode" ./ root@batteryfor.me:/var/www/jalil/
+    - ssh root@batteryfor.me "cd /var/www/jalil && echo yes | composer update  && echo yes | composer install"
+    - ssh root@batteryfor.me "rm /var/www/jalil/.env && mv /var/www/jalil/.env1 /var/www/jalil/.env"
+    - ssh root@batteryfor.me "cp -rfv $value/storage/app/public /var/www/jalil/storage/app/ && cd /var/www/jalil/public && rm -fr storage && cd .. && php artisan storage:link"
+    - ssh root@batteryfor.me "chown www-data:www-data -R /var/www/jalil/ && chmod 755 -R /var/www/jalil"
+    

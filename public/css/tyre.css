@@ -1,0 +1,252 @@
+.tyre{
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: #163300;
+  font-family: 'Inter', sans-serif;
+}
+.enter{
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  color: #B4B9C3;
+}
+.size{
+  border-radius: 8px;
+  border: none;
+  color: #F8F9FA;
+  background-color: #F8F9FA;
+}
+::placeholder{
+  color: #163300;
+  font-size: 0.8rem;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  margin-right: 0.3rem;
+  border-radius: 8px;
+  background-color: #F8F9FA;
+  float: left;
+  color: #9098A5;
+  text-align: center;
+  padding: 8px 3px 8px 3px;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #16330014;
+  color: #163300;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #16330014;
+  color: #163300;
+}
+.containtyre{
+  width: 100%;
+  border: none;
+  height: 6.25rem;
+  background-color: #F8F9FA;
+  border-radius: 12px;
+}
+
+.maxxis{
+  font-size: 0.8rem;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  color: #163300;
+}
+.double{
+  margin-bottom: 0rem;
+  font-size: 0.75rem;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  color: #163300; 
+}
+.card-body{
+  padding-top: 0rem;
+}
+.small{
+  padding-left:65%;
+}
+.for-lap{
+display: flex;
+}
+.for-mobile{
+display: none;
+}
+@media (max-width:600px){
+  .for-lap{
+    display: none;
+  }
+  .for-mobile{
+    display: block;
+  }
+  .containtyremobile{
+      width: 100%;
+      border: none;
+      background-color: #F8F9FA;
+      border-radius: 12px; 
+    }
+    .containtyremobile img{
+      width: fit-content;
+      
+    }
+   
+    
+}
+
+.amount .amounttop{
+margin: 0;
+font-size: 0.75rem;
+font-weight: 400;
+font-family: 'Inter', sans-serif;
+color: #163300;
+}
+.amount .amountbottom{
+font-size: 1.5rem;
+font-weight:500;
+font-family: 'Inter', sans-serif;
+color: #163300;
+}
+.nextcontainer{
+display: flex;
+ align-items: center;
+ justify-content: center;
+height: max-content;
+background-color: #9FE870;
+border-radius: 10px;
+padding: 12px 24px 12px 24px;
+
+}
+
+
+
+.qty-add {
+right: 0;
+}
+
+.numberstyle-qty {
+position: relative;
+}
+
+.numberstyle-qty input,
+.numberstyle-qty .qty-btn {
+position: relative;
+float: left;
+height: 40px;
+padding: 0;
+margin: 0;
+border: 0px;
+text-align: center;
+line-height: 40px;
+outline: 0;
+box-shadow: 0px;
+color: rgb(148, 147, 147);
+}
+
+.numberstyle-qty .qty-btn {
+padding: 12px;
+  top: 0;
+  position: absolute;
+  border-radius: 8px;
+  color: #163300;
+  width: 2rem;
+  height:2rem;
+  font-size:2.5vw;
+  display: flex;
+  cursor: pointer!important;
+  z-index: 2;
+  user-select: none;
+  transition: all 250ms ease;
+  background: #F8F9FA;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.numberstyle-qty .qty-add {
+right:0vw;
+}
+
+.numberstyle-qty .qty-rem {
+left:0vw;
+}
+
+.numberstyle-qty .qty-btn.disabled {
+cursor: default;
+
+}
+span.add_span {
+  margin-top: -.3vw;
+}
+span.rem_span {
+  margin-top: -.3vw;
+}
+.text {
+  padding: 0 1vw;
+}
+.numberstyle-qty input {
+
+/* background: #f7f7f7; */
+/*border: .5vw solid #f7f7f7;*/
+/* border-left: 0; */
+/* border-right: 0; */
+font-size: 1.375rem;
+z-index: 1;
+color: #163300;
+}
+
+.numberstyle-qty input:focus {
+outline: 0;
+box-shadow: 0px;
+}
+  
+.numberstyle-qty input[type=number]::-webkit-inner-spin-button,
+.numberstyle-qty input[type=number]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+  
+.numberstyle-qty input[type=number] {
+-moz-appearance: textfield;
+}
+
+@media (max-width:768px) {
+.numberstyle-qty .qty-btn{
+  width: 4rem;
+  height: 3rem;
+  font-size:x-large;
+}
+.amount{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.nextcontainer{
+  width: auto;
+}
+}
+.add-ul-tyre li a.active{
+  .containtyre{
+background-color: #16330014 !important;
+  }
+  .containtyremobile{
+    background-color: #16330014 !important;
+  }
+ 
+}
+.add-ul-tyre li a.active{
+ 
+  .containtyremobile{
+    background-color: #16330014 !important;
+  }
+ 
+}

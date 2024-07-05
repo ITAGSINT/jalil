@@ -1,0 +1,119 @@
+.add{
+    padding-left: 0.5rem;
+    color: #163300;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.left{
+    color: #163300;
+}
+
+#myInput {
+    background-color: #F8F9FA;
+    background-image: url('../image/search.png'); /* Add a search icon to input */
+    background-position:right; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border:none; /* Add a grey border */
+    border-radius: 8px;
+    margin-bottom: 12px; /* Add some space below the input */
+  }
+  #myInput::placeholder{
+    color: #9098A5;
+    font-size: 1rem;
+  }
+  
+  .add-ul {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .add-ul li img{
+    padding-right: 1rem;
+  }
+  
+  .add-ul li a {
+    border: none; /* Add a border to all links */
+    border-radius: 8px;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #F8F9FA; /* Grey background color */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 1rem; /* Increase the font-size */
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #545454; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+  }
+  
+  .add-ul li a:hover:not(.header) {
+    background-color: #eee; /* Add a hover effect to all links, except for headers */
+  }
+  .add-ul li a:checked {
+    background-color: #eee; /* Add a hover effect to all links, except for headers */
+  }
+  .cartext{
+    
+    background-color: #F8F9FA;
+    border-radius: 8px;
+    padding: 8px 16px 8px 16px;
+    
+  }
+  .carbutton{
+     background-color: #F8F9FA;
+    border-radius: 8px;
+    padding: 8px 16px 8px 16px;
+    position: absolute;
+    margin-left: 80%;
+  }
+  .cartext p{
+    padding-left: 1rem;
+    padding-top: 1rem;
+    color: #163300;
+     font-size: 1rem; /* Increase the font-size */
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+  }
+  .add-ul li a.active{
+    background:#eee;
+   
+  }
+
+  .addBtn{
+    padding: 12px 24px 12px 24px;
+    background-color: #F8F9FA;
+    border-radius: 8px;
+    
+    color: #163300;
+    text-decoration: none;
+  }
+  #myInputone{
+    background-color: #F8F9FA;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 10px ; 
+  display: none;
+  }
+  #myInputtwo{
+    background-color: #F8F9FA;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 10px ; 
+  display: none; 
+  }
+  @media (max-width:425px) {
+    #myInputone{
+      margin-top: 1rem;
+      width: 100%;
+    }
+    #myInputtwo{
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+      width: 100%;
+    }
+    
+  }

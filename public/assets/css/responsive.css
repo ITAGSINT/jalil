@@ -1,0 +1,592 @@
+@media (max-width: 400px) {
+   
+desktop{
+    display:none!important;
+}   
+responsive{
+    display:block;
+} 
+
+
+
+footer{
+   display:none; 
+}    
+
+.footer-responsive{
+    display:block;
+}
+  
+
+
+
+
+ .navbar .icon{
+     display:none;
+ }
+  
+  .btn{
+      margin-top:162px;
+    margin-left: 24%;
+}
+
+
+
+  .lang-icon {
+    margin-left: 81%!important;
+}
+.logo {
+  /*  margin-left: 278%;*/
+}
+    
+    
+  .category img {
+    width: 100%;
+}
+
+
+    
+.btn2 {
+    font-size: 20px!important;
+    }
+    
+.servise{
+    
+    display:flex!important;
+}
+.servise img {
+    width: 135px;
+    margin-bottom: 20px;
+    margin-left: 62px;
+}
+
+ .servise .img3 {
+    display:NONE;
+   
+    }
+    
+    
+    .bg-dark {
+    padding-bottom: 177px;
+}
+     
+    #tempaltemo_footer .follow{
+        
+        text-align:center!important;
+    }
+    
+   
+    
+    
+ .res-categories a img {
+    width: 60%;
+}   
+    
+.res-categories .sec-two {
+    border-left:none;
+    
+}
+
+ 
+.res-categories .sec-two .flip{
+   
+    direction:rtl;
+}
+
+.res-categories .sec-one .text, .res-categories .sec-two .text {
+    padding-top: 58%!important;
+    font-size:12px;
+  
+}
+
+
+
+.res-categories .sec-one span h2{
+    text-align:right;
+  font-size:15px!important;
+    flex-wrap: wrap;
+    
+
+}
+
+
+
+.sec-one .price {
+    direction: rtl;
+}
+
+.sec-one .text, .sec-two .text {
+    padding-top: 68%!important;
+    font-size:10px;
+    margin-right: -15px;
+}
+
+
+.container-fluid  .sort .buttons {
+    display: none;
+}
+
+.container-fluid .left-menu a{
+   font-size:20px!important;
+}
+
+
+
+}
+@media (max-width: 765px){
+      .sec-one{
+     
+    text-align:right;
+        padding-right: 0 !important; 
+
+}
+}
+
+@media (min-width: 400px) and (max-width: 576px) {
+  
+desktop{
+    display:none;
+}   
+responsive{
+    display:block;
+} 
+     
+footer{
+   display:none; 
+}    
+
+.footer-responsive{
+    display:block;
+}
+
+
+
+ .navbar .icon{
+     display:none;
+ }
+  
+  .btn{
+      margin-top:162px;
+    margin-left: 24%;
+}
+
+
+
+  .lang-icon {
+    margin-left: 81%!important;
+}
+
+.logo {
+   /* margin-left: 366%;*/
+}
+    
+    
+  .category img {
+      width: 100%;
+}
+
+
+    
+.btn2 {
+    font-size: 20px!important;
+    }
+    
+.servise{
+    
+    display:flex!important;
+}
+.servise img {
+    width: 135px;
+    margin-bottom: 20px;
+    margin-left: 62px;
+}
+
+ .servise .img3 {
+    display:NONE;
+   
+    }
+    
+    
+    .bg-dark {
+    padding-bottom: 177px;
+}
+     
+    #tempaltemo_footer .follow{
+        
+        text-align:center!important;
+    }
+  
+
+
+.container-fluid  .sort .buttons {
+    display: none;
+}
+    
+
+
+ .res-categories a img {
+    width: 70%;
+}   
+    
+.res-categories .sec-two {
+    border-left:none;
+    
+}
+
+ 
+.res-categories .sec-two .flip{
+   
+    direction:rtl;
+}
+
+
+
+
+.res-categories .sec-one span h2{
+    text-align:right;
+   font-size:17px!important;
+    flex-wrap: wrap;
+   
+
+}
+
+
+
+.sec-one .price {
+    direction: rtl;
+}
+.sec-one .text, .sec-two .text {
+    padding-top: 82%!important;
+    margin-right: -20px;
+}
+
+.container-fluid .left-menu a{
+   font-size:20px!important;
+}
+    
+}
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+ 
+.container-fluid  .sort .buttons {
+    display: none;
+}  
+     
+desktop{
+    display:none;
+}   
+responsive{
+    display:block;
+} 
+
+
+    .logo {
+  /*  margin-left: 724%;*/
+}
+
+.lang-icon {
+    margin-left: 88%!important;
+}
+    
+    .navbar .icon{
+     display:none;
+    }
+
+
+.servise img {
+    width: 139px;
+    margin-bottom: 20px;
+    margin-left: 92px;
+}
+ .servise .img3 {
+    display:NONE;
+   
+    }
+    
+.btn{
+    margin-top:300px;
+    margin-left: 33%;
+}
+
+.btn2 {
+   font-size:20px!important;
+
+}
+
+
+
+    .bg-dark {
+   
+    padding-bottom: 167px;
+    }
+    
+    #tempaltemo_footer .follow{
+        
+        text-align:center!important;
+    }
+        
+footer{
+   display:none; 
+}    
+
+.footer-responsive{
+    display:block;
+}
+
+
+
+.categories .sec-two {
+    border-left:none;
+}
+
+
+.container-fluid .left-menu p{
+   font-size:20px!important;
+}
+
+    
+
+ .res-categories a img {
+    width: 70%;
+}   
+    
+.res-categories .sec-two {
+    border-left:none;
+    
+}
+
+ 
+.res-categories .sec-two .flip{
+   
+    direction:rtl;
+}
+
+
+
+
+.res-categories .sec-one span h2{
+    text-align:right;
+   font-size:17px!important;
+    flex-wrap: wrap;
+   
+
+}
+
+
+
+.sec-one .price {
+    direction: rtl;
+}
+.sec-one .text, .sec-two .text {
+    padding-top: 82%!important;
+    margin-right: -20px;
+}
+
+.container-fluid .left-menu a{
+   font-size:20px!important;
+}
+  
+
+
+    
+}
+
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 992px) {
+ 
+desktop{
+   display:block;
+}   
+responsive{
+    
+     display:none;
+} 
+
+    .bg-dark {
+    padding-bottom: 177px;
+} 
+
+
+
+  .lang-icon {
+    margin-left: 75%!important;
+    }
+  
+ .navbar .icon{
+     display:none;
+ }
+ 
+ .category img {
+   width: 100%;
+}
+.servise img {
+    width: 177px;
+     margin: 0px;
+     margin-bottom: 20px;
+}
+.btn{
+    margin-left: 37%;
+}
+
+    #tempaltemo_footer .follow{
+        
+        text-align:center!important;
+    }
+    
+    .logo-img {
+    
+    margin-right: 20px;
+} 
+ 
+
+
+
+.sec-one .text, .sec-two .text {
+    padding-top: 35%!important;
+}
+
+
+}
+
+
+
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1200px) {
+     .lang-icon {
+        margin-left: 32%!important;
+    }
+    
+    .navbar .icon{
+     display:block;
+ }
+ 
+ .bg-dark {
+   
+    padding-bottom: 0px!important;
+    }
+
+
+
+ 
+desktop{
+   display:block;
+}   
+responsive{
+    
+     display:none;
+} 
+
+
+}
+
+
+
+@media (min-width: 1201px) {
+      
+     .lang-icon {
+    margin-left: 52%!important;
+}
+
+    .bg-dark {
+   
+    padding-bottom:0px;
+    }
+    
+
+
+.btn2 {
+   font-size:25px;
+}
+
+
+
+desktop{
+   display:block;
+}   
+responsive{
+    
+     display:none;
+} 
+    
+}
+
+
+
+
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1500px) {
+    
+    .logo {
+   
+ /*   margin-left: 0%!important; */
+    }
+    
+    
+     .lang-icon {
+    margin-left: 60%!important;
+    }
+
+    .bg-dark {
+   
+    padding-bottom:0px;
+    }
+    
+
+
+.category img {
+   width: 100%;
+}
+
+
+
+.btn2 {
+   
+   font-size:30px;
+  
+   
+}
+ .servise img {
+    width: 191px;
+    margin: 53px;
+   
+}
+
+
+desktop{
+   display:block;
+}   
+responsive{
+    
+     display:none;
+} 
+
+}
+
+
+
+
+
+
+
+
+@media (min-width: 2000px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+

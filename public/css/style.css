@@ -1,0 +1,357 @@
+*{
+    direction: ltr;
+}
+body{background-color: #F8F9FA; }
+.navcontainer{
+    height: 100px;
+    background-color: #F8F9FA !important;
+    padding: 4px, 100px, 4px, 100px; 
+    gap: 24px;
+    width: 100%;
+}
+.navbar{
+    height: 58px;
+  justify-content: space-between;
+    
+}
+
+
+.jalil{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 48px;
+    line-height: 58.09px;
+    color:  #163300;
+    width: 134px;
+    height: 58px;
+    gap: 8px;
+}
+.hamburger{
+    border: none;
+    padding: 14px;
+}
+.hamburgericon{
+    color: #9098A5;
+    width: 18px;
+    height: 13px;
+    
+}
+.track{
+  width: 100%;
+height: 20rem;  
+}
+.ride{width: 100%;
+height: 20rem;}
+.im{
+    border-radius: 24px;
+    position: absolute;
+    max-width: 100%;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+}
+.texttop{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600; 
+    font-size: 2rem;  
+}.texttrack{
+    padding-bottom: 2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600; 
+    font-size: 2rem;   
+    color: #163300;
+
+}
+.btntrack{
+    text-align: center;
+    width: 11rem;
+    background: #9FE870;
+   color: #163300;
+font-family: 'Inter', sans-serif;
+    font-weight: 500; 
+    font-size: 1rem; 
+    border-radius: 8px;
+
+
+}
+.imtrack{
+    
+    width: 100%;
+}
+.text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    color: #9FE870;
+
+}
+.whatsapp-icon {
+  position: fixed;
+position: absolute;
+  background-color: #075E54;
+  bottom: 2rem;
+  right: 2rem;
+  color: #fff;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whatsapp-icon img{
+    width: 2rem;
+    position: absolute;
+}
+.battery{
+    width: 100%;
+    min-height: 20rem;
+}
+.batteryimg{
+    width: 100%;
+}
+.textbattery{
+   
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #163300;
+    font-size: 1.5rem;
+   }
+    .state{
+        padding: 4px 8px 4px 8px !important;
+        gap: 0.6rem;
+        width:max-content;
+        height: 1.6rem;
+        background-color: #EEF5F0 ;   
+    }
+    .batterystate{
+    font-size: 0.8rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #3A6F48;
+    font-size: 0.7rem;
+    }
+    .textwash {
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        color: #163300;
+        font-size: 1.5rem;  
+    }
+    .letwash {
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        color: #686868;
+        font-size: 1rem;   
+    }
+    .washimg{
+        height: 100%;
+        width: 100%;
+    }
+    .stateone{
+        padding: 4px 8px 4px 8px !important;
+        gap: 0.6rem;
+        width:max-content;
+        height: 1.6rem;
+        background-color: #EEF5F0 ;   
+    }
+    .washstate{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #3A6F48;
+    font-size: 0.7rem;
+    }
+    .home p{
+        font-size: 0.8rem;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        color:#163300;
+        
+    }
+    .unactive {
+        padding-left: 1rem;
+    }
+   
+    .unactive p{
+        
+        font-size: 0.8rem;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        color:#B0B0B0;
+        
+    }
+/*@media (max-width:1024px) {
+    .texttrack{
+        padding-bottom: 3.8rem ;
+       
+    }
+}*/
+@media (max-width: 992px) {
+    .texttrack {
+        padding-bottom: 1.5rem;
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:768px) {
+    .texttrack{
+        padding-bottom: 0rem;
+     font-size:1.6rem;   
+    }
+  
+}
+.modal-backdrop{
+    z-index: -1000;
+}
+
+.modal-backdrop.show {
+    opacity: 0;
+}
+.home{
+    text-decoration: none;
+}
+
+
+
+.footernav {
+    
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+justify-content:center;
+  flex-direction: row;
+}
+  .containnav{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+.navbottom{
+border-radius: 24px;
+border: solid 1px #F8F9FA;
+}
+.listbottom{
+    gap:2rem ;
+}
+
+@media (max-width:768px){
+    .listbottom{
+        gap: 1rem ;
+    }  
+}
+@media (max-width:600px) {
+    
+    .containnav img{
+        width: 1.125rem;
+        height: 1.125rem ;
+    }
+    .containnav p{
+        font-weight: 400;
+        font-size: 0.5rem;
+    }
+    .listbottom{
+        gap: 1rem ;
+    }
+}
+@media (max-width:320px){
+    .listbottom{
+        gap: 0rem ;
+    }  
+}
+.login{
+    position: relative;
+    
+}
+.fa-circle-user{
+    padding-right: 1rem;
+}
+.imgclip{
+    padding-right: 1rem;
+}
+.fa-circle-question{
+    padding-right: 0.8rem;   
+}
+.dropdown-toggle::after{
+    display: none;
+}
+.logright{
+    position: absolute;
+    padding-left:50%;
+}
+.orderright{
+    position: absolute;
+    padding-left:53%;  
+}
+.stateright{
+    position: absolute;
+    padding-left:58%;   
+}
+.termright{
+    position: absolute;
+    padding-left:41%; 
+}
+.signright{
+    position: absolute;
+    padding-left:64%;  
+}
+.order{
+    padding-top: 8rem;
+}
+.contactright{
+    position: absolute;
+    padding-left:41%;
+}
+.float img{
+width: 6rem;
+height: 3rem;
+}
+.talknav{
+  text-wrap: wrap;
+}
+@media (width:768px) {
+  .batteryimg{
+    width: 66%;
+  }  
+  .washimg{
+    width: 70%;
+  }
+}
+@media (width:375px){
+    .termright{
+        position: absolute;
+        padding-left:39%; 
+    }
+    .talknav{
+       
+        text-wrap: wrap;
+        padding: 0rem !important;
+        padding-top: 2rem !important;
+      }
+      .chatnav{
+        padding: 1rem !important;
+      }
+      }
+      @media (width:320px){
+        .state{
+            height: 2.5rem;
+        }
+        .termright{
+            position: absolute;
+            padding-left:36%; 
+        }
+        .contactright{
+            position: absolute;
+            padding-left:39%;
+        }
+        .signright{
+            position: absolute;
+            padding-left:65%;  
+        }
+        .talknav{
+           
+            text-wrap: wrap;
+            padding: 0rem !important;
+            padding-top: 2rem !important;
+          }
+          .chatnav{
+            padding: 1rem !important;
+          }
+          }

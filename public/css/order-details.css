@@ -1,0 +1,81 @@
+.arrive{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #163300; 
+}
+.person {
+    border-radius: 50%;
+  }
+  .major{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #163300; 
+  }
+  .tela{
+    margin-inline-start: auto;
+    background-color: #F8F9FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    border-radius: 8px;
+  }
+  .teli{
+    color: #9098A5;
+  }
+  .order-tyre{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #9098A5;
+  }
+
+.location{
+  color: #163300;
+     font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.location-det{
+  color: #B8B8B8;
+      font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.6rem;
+}
+.cancel,.cancel:hover{
+  background-color: white;
+  color: #B4B9C3;
+  padding: 12px 24px 12px 24px;
+ 
+}
+.reschedule,.reschedule:hover{
+ 
+    background-color: #F8F9FA;
+  color:#163300;
+  padding: 12px 24px 12px 24px;
+}
+.for-lap{
+  display: block;
+}
+  @media (max-width:425px) {
+    .for-lap{
+      display: none;
+    }
+    .for-mobile{
+      display: block;
+    }
+    .cancel,.cancel:hover{
+      background-color: white;
+      color: #B4B9C3;
+      padding: 4px 4px 4px 4px;
+     
+    }
+    .reschedule,.reschedule:hover{
+     
+        background-color: #F8F9FA;
+      color:#163300;
+      padding: 4px 4px 4px 4px;
+    }
+  }

@@ -1,0 +1,28 @@
+.credit{
+    color: #163300;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    margin: 0;
+}
+.image-credit{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* or 'contain' */
+}
+.trans{
+    color: #3C3C4399;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+.num{
+    color: #333333;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+.hr{
+    margin-top: 0;
+    width:100%;
+}

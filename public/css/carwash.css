@@ -1,0 +1,41 @@
+.apply{
+    color: #9FE870;
+}
+.apply:hover{
+    color: #9FE870;
+}
+.Current-Location::placeholder{
+    color: #9098A5;
+}
+.address{
+    padding-bottom: 2rem !important;
+}
+.chinese{
+    color: #163300;
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+}
+#myInputfour{
+    display: block !important;
+}
+#myInputone{
+    display: block;
+}
+.cartype{
+    color: #163300;
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;  
+}
+.carstyle{
+    color: #163300;
+    font-weight: 400;
+    font-size: 0.8rem;
+    font-family: 'Inter', sans-serif;   
+}
+.location-name,
+.location-name-details,
+.location-icon{
+    color: #163300 !important;
+}

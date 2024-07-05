@@ -1,0 +1,307 @@
+.select{
+    color: #545454;
+    font-size:1rem ;
+    font-weight: 400 ;
+    font-family: 'Inter', sans-serif;
+ }
+ .choose-right{
+   margin-right: 2rem;
+ }
+ .choose-left{
+   margin-left: 4rem;
+ }
+ @media (max-width:768px) {
+   .choose-left{
+     margin: 1rem;
+   }
+   .choose-right{
+     margin: 1rem;
+   }
+ }
+ .right{
+   color: #163300;
+    font-family: 'Inter', sans-serif;
+   font-size:1.75rem;
+   font-weight: 500;
+ }
+ .plus-button{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 3rem;
+   height: 3rem;
+   background-color: #F8F9FA;
+   color: #9098A5;
+   padding: 0.5rem;
+   font-family: sans-serif;
+   border-radius: 8px;
+   cursor: pointer;
+ }
+  .check-location{
+   float: right !important;
+ }
+ .location-name{
+   color: #9098A5;
+   font-family: 'Inter', sans-serif;
+   font-size:1rem;
+   font-weight: 500;
+   margin: 0;
+ }
+ .location-name-details{
+   color: #9098A5;
+   font-family: 'Inter', sans-serif;
+   font-size:0.8rem;
+   font-weight: 400;
+ }
+ .location-icon{
+   color: #9098A5;
+  
+ }
+ .check-location{
+   margin-top: 1rem;
+ }
+ .check-location:checked{
+   background-color: #9098A5;
+   color: #9098A5;
+   background-image: none;
+   border: none;
+   margin-top: 1rem;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   /* Always set the map height explicitly to define the size of the div
+        * element that contains the map. */
+        #map {
+         height: 100%;
+       }
+       /* Optional: Makes the sample page fill the window. */
+       html, body {
+         height: 100%;
+         margin: 0;
+         padding: 0;
+       }
+       #description {
+         font-family: Roboto;
+         font-size: 15px;
+         font-weight: 300;
+       }
+ 
+       #infowindow-content .title {
+         font-weight: bold;
+       }
+ 
+       #infowindow-content {
+         display: none;
+       }
+ 
+       #map #infowindow-content {
+         display: inline;
+       }
+ 
+       .pac-card {
+         margin: 10px 10px 0 0;
+         border-radius: 2px 0 0 2px;
+         box-sizing: border-box;
+         -moz-box-sizing: border-box;
+         outline: none;
+         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+         background-color: #fff;
+         font-family: Roboto;
+       }
+ 
+       #pac-container {
+         padding-bottom: 12px;
+         margin-right: 12px;
+       }
+ 
+       .pac-controls {
+         display: inline-block;
+         padding: 5px 11px;
+       }
+ 
+       .pac-controls label {
+         font-family: Roboto;
+         font-size: 13px;
+         font-weight: 300;
+       }
+ 
+       #pac-input {
+         background-color: #fff;
+         font-family: Roboto;
+         font-size: 15px;
+         font-weight: 300;
+         margin-left: 12px;
+         padding: 0 11px 0 13px;
+         text-overflow: ellipsis;
+         width: 400px;
+       }
+ 
+       #pac-input:focus {
+         border-color: #4d90fe;
+       }
+ 
+       #title {
+         color: #fff;
+         background-color: #4d90fe;
+         font-size: 25px;
+         font-weight: 500;
+         padding: 6px 12px;
+       }
+       #target {
+         width: 345px;
+       }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+       
+ 
+       /* Style the search field */
+ form.example input[type=text] {
+   padding: 10px;
+   font-size: 17px;
+   border: none;
+   float: left;
+   width: 80%;
+   background: #FAFBFD;
+ }
+ 
+ /* Style the submit button */
+ form.example button {
+   float: left;
+   width: 20%;
+   padding: 10px;
+   background: #FAFBFD;
+   color: #202023;
+   font-size: 17px;
+   border: none;
+   border-left: none; /* Prevent double borders */
+   cursor: pointer;
+ }
+ 
+ form.example button:hover {
+   cursor: pointer;
+ }
+ 
+ /* Clear floats */
+ form.example::after {
+   content: "";
+   clear: both;
+   display: table;
+ }
+ .input-date{
+   background-color: #F8F9FA;
+   border: none;
+   width: 100%;
+ }
+ .ui-widget.ui-widget-content{
+   border: none !important;
+   width: 100%;
+ }
+ .ui-datepicker .ui-datepicker-header {
+   background-color: white !important;
+   border: none;
+ }
+ .ui-datepicker th span{
+   color: #C4C4C4;
+ }
+ .ui-state-default, .ui-widget-content .ui-state-default{
+   border: none !important;
+    background-color: white !important;
+    text-align: center;
+ }
+ .ui-state-active, .ui-widget-content .ui-state-active ,.ui-state-highlight{
+   background-color: #16330014 !important;
+   color: black !important;
+   text-align: center;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .change-time {
+   /* Remove default list styling */
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+ }
+ 
+ 
+ .change-time li a {
+   border: none; /* Add a border to all links */
+   border-radius: 8px;
+   margin-top: -1px; /* Prevent double borders */
+   background-color: #F8F9FA; /* Grey background color */
+   padding: 12px; /* Add some padding */
+   text-decoration: none; /* Remove default text underline */
+   font-size: 1rem; /* Increase the font-size */
+   font-weight: 400;
+   font-family: 'Inter', sans-serif;
+   color: #9098A5; /* Add a black text color */
+   display: block; /* Make it into a block element to fill the whole list */
+ }
+ 
+ .change-time li a:hover:not(.header) {
+   background-color: #16330014; /* Add a hover effect to all links, except for headers */
+ }
+ 
+ .change-time .myli.active{
+   background-color: #16330014;
+   color: #163300;
+ }
+ .change-time li{
+   width: 100%;
+ }
+ .next{
+   background-color: #9FE870;
+   border-radius: 8px;
+   padding: 12px, 24px, 12px, 24px;
+   color: #163300;
+   width: -webkit-fill-available;
+     }
+     .next:hover{
+       background-color: #9FE870;
+       color: #163300; 
+     }
+ 
+     /* width */
+ ::-webkit-scrollbar {
+   width: 3px;
+ }
+ 
+ /* Track */
+ ::-webkit-scrollbar-track {
+   background: #f1f1f1;
+ }
+ 
+ /* Handle */
+ ::-webkit-scrollbar-thumb {
+   background: #88888879;
+ }
+ 
+ /* Handle on hover */
+ ::-webkit-scrollbar-thumb:hover {
+   background: #555;
+ }

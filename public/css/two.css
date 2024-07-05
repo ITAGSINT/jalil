@@ -1,0 +1,27 @@
+.toptext{
+    color: #163300;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-bottom: 6.25rem;
+    padding-left: 1rem;
+}
+.yes{
+    background: #16330014;
+
+}
+.yes:hover{
+    background: #16330014;  
+}
+.textyes{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: #163300;
+}
+.textplease{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #163300;
+}

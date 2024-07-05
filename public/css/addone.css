@@ -1,0 +1,166 @@
+.chooseemirate{
+    color: #163300;;
+    font-size: 1.75rem;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+   
+ }
+ .emirate{
+    color: #B4B9C3;
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+ }
+ .select{
+   color: #B4B9C3;
+   font-size: 0.8rem;
+   font-weight: 400;
+   font-family: 'Inter', sans-serif;
+ }
+.car-color{
+   
+   width: 2rem;
+   height: 2rem;
+}
+
+.color-name{
+   color: #8A8A8A;
+   font-size: 0.8rem;
+   font-weight: 400;
+   font-family: 'Inter', sans-serif;
+}
+
+ 
+.ul-select li a:hover{
+   .car-color{
+      border: 2px solid #9FE870;
+   }
+ }
+.ul-select li a.active {
+   .car-color{
+      border: 2px solid #9FE870;
+   }
+ }
+.skip{
+   background-color: #F8F9FA;
+   width: 100%;
+   border-radius: 0.5rem;
+}
+@media (max-width:425px) {
+   .col-wid{
+      width: 50%;
+   }
+   .row-bottom{
+      padding-top: 0rem !important;
+   }
+   .row-top{
+      padding-bottom: 1rem !important;
+   }
+   .col-color{
+      margin-top: 2rem;
+   }
+}
+.addBtnCar{
+   width: 35%;
+   padding: 12px 24px 12px 24px;
+   background-color: #9FE870;
+   border-radius: 8px;
+   
+   color: #163300;
+   text-decoration: none;
+ }
+
+
+
+
+/* The Modal (background) */
+.modal {
+   display: none; /* Hidden by default */
+   position: fixed; /* Stay in place */
+   z-index: 1; /* Sit on top */
+   left: 0;
+   top: 0;
+   width: 100%; /* Full width */
+   height: 100%; /* Full height */
+   overflow: auto; /* Enable scroll if needed */
+   background-color: rgb(0,0,0); /* Fallback color */
+   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+ }
+ 
+ /* Modal Content/Box */
+ .modal-content {
+   background-color: #fefefe;
+   margin: 15% auto; /* 15% from the top and centered */
+   padding: 20px;
+   border: 1px solid #888;
+   width: 80%; /* Could be more or less, depending on screen size */
+ }
+ 
+ /* The Close Button */
+ .close {
+   color: #aaa;
+   float: right;
+   font-size: 28px;
+   font-weight: bold;
+ }
+ 
+.modal-content h3{
+   color: #163300;
+   font-size: 1.75rem;
+   font-weight:500;
+   font-family: 'Inter', sans-serif;
+}
+.end-add{
+   background-color: #F8F9FA;
+   border-radius: 12px;
+}
+.end-add img {
+   width: 100% !important;
+   height: 100%;
+   object-fit:fill;
+ }
+ .myInputone{
+   display: block !important;
+ }
+ .myInputtwo{
+   display: block !important;  
+ }
+ #myInputone,
+ #myInputtwo,
+ #myInputthree,
+ #myInputfour,
+ #myInputfive{
+   width: 100%;
+   margin-right: 1rem;
+   margin-left: 1rem;
+   background-color: #F8F9FA;
+   border-radius: 8px;
+   border: none;
+   padding: 5px 5px; 
+ display: none; 
+ }
+ .numinput{
+   border: none;
+   background-color: #F8F9FA;
+ }
+ @media (max-width:768px) {
+   #myInputthree{
+     margin-top: 1rem;
+     width: 100%;
+   }
+ 
+    #myInputtwo{
+      margin-top: 1rem !important;
+    margin-bottom: 0rem !important;
+    }
+   #myInputfour{
+     margin-top: 1rem;
+     margin-bottom: 2rem;
+     width: 100%;
+   }
+   #myInputfive{
+      margin-top: 1rem;
+      width: 100%;
+    }
+   
+ }

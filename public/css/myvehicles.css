@@ -1,0 +1,15 @@
+.dont{
+    color: #163300;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;   
+}
+.turn{
+    color: #C00000;
+}
+.ensure{
+    color: #163300AD;
+    font-weight: 400;
+    font-size: 0.8rem;
+    font-family: 'Inter', sans-serif;  
+}

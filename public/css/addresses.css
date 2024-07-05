@@ -1,0 +1,29 @@
+.Current-Location{
+    background-color: #FAFBFD;
+    border: none;
+    border-radius: 8px;
+}
+.Current-Location::placeholder{
+    color: #3E4B63;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+}
+.address{
+    padding-bottom: 5rem !important;
+}
+.next{
+    width: 50%;
+    margin-left: 50%;
+}
+.add-label{
+    color: #9098A5;
+    font-weight: 400;
+    font-size: 0.8rem;
+    font-family: 'Inter', sans-serif;
+}
+.add-input{
+    background-color: #FAFBFD;
+    width: 100%;
+    border: none;
+}

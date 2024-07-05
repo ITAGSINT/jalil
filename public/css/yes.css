@@ -1,0 +1,361 @@
+.toptext{
+  color: #163300;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+}
+.choosesize p{
+  color: #163300;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1.375rem;
+}
+.topone{
+  border-radius: 2.25rem;
+  background-color: white;
+}
+.ah{
+
+  background-color: #D9D9D9;
+ 
+ width: 100%;
+ height: 3rem;
+ border-radius: 8px;
+ color: black;
+padding:  8px, 16px, 8px, 10px;
+ text-align: center;
+ font-family: 'Inter', sans-serif;
+ font-size:2rem;
+ font-weight: 700;
+}
+
+.cotainenumber{
+  background-color: white;
+  padding: 8px, 0px, 8px, 0px;
+  gap: 1rem;
+  border-radius: 16px;
+}
+.cotaineletter{
+  background-color: white;
+  padding: 8px, 0px, 8px, 0px;
+  gap: 1rem;
+  border-radius: 16px;
+}
+.cotaineletter button{
+  margin: auto;
+width: 100% !important;
+padding: 8px 16px 8px 16px;
+gap: 10px;
+border-radius: 8px;
+opacity: 0.56px;
+background: #F8F9FA;
+color: #9098A5;
+
+}
+.cotainenumber button{
+  margin: auto;
+width: 75% !important;
+padding: 8px 16px 8px 16px;
+gap: 10px;
+border-radius: 8px;
+opacity: 0.56px;
+background: #F8F9FA;
+color: #9098A5;
+
+}
+
+
+
+
+
+
+
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 100%;
+}
+.tablinkone {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 100%;
+}
+/* Change background color of buttons on hover */
+.tablink:hover {
+  padding: 8px 16px 8px 16px;
+  gap: 10px;
+  border-radius: 8px;
+  opacity: 0.56px;
+  background:#16330014;
+  color: #163300;
+}
+.tablinkone:hover {
+  padding: 8px 16px 8px 16px;
+  gap: 10px;
+  border-radius: 8px;
+  opacity: 0.56px;
+  background:#16330014;
+  color: #163300;
+}
+button.active {
+  padding: 8px 16px 8px 16px;
+  gap: 10px;
+  border-radius: 8px;
+  opacity: 0.56px;
+  background:#16330014;
+  color: #163300;
+}
+/* Set default styles for tab content */
+.tabcontent {
+  height: 3rem;
+  border-radius: 8px;
+  background-color: #C6FCA4;
+  color: black;
+  display: none;
+ padding:  8px, 16px, 8px, 10px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size:2rem;
+  font-weight: 700;
+
+
+}
+
+.tabcontentone{
+  height: 3rem;
+  border-radius: 8px;
+  background-color: #C6FCA4;
+  color: black;
+  display: none;
+ padding:  8px, 16px, 8px, 10px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size:2rem;
+  font-weight: 700;
+
+}
+
+
+
+
+
+
+.right{
+  color: #163300;
+   font-family: 'Inter', sans-serif;
+  font-size:1.75rem;
+  font-weight: 500;
+}
+.check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  background-color: #F8F9FA;
+  color: #9098A5;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.country{
+  background-color: #16330014;
+ border-radius: 12px;
+}
+.launch{
+  color: #3A6F48;
+  background-color: #C9E0D0;
+  font-size: 0.75rem;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  padding: 4px;
+  width: 10rem;
+}
+.available{
+  color: #163300;
+  font-size: 0.75rem;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+ 
+}
+
+.flexRadioDefault7 {
+  display: none;
+  &:not(:disabled) ~ label {
+    cursor: pointer;
+  }
+  &:disabled ~ label {
+    color: hsla(150, 5%, 75%, 1);
+    border-color: hsla(150, 5%, 75%, 1);
+    box-shadow: none;
+    cursor: not-allowed;
+  }
+}
+.check {
+  height: 50px;
+  width: 50px;
+  display: block;
+  background-color: #16330000;
+  border-radius: 50%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  //margin: 1rem;
+  text-align: center;
+  position: relative;
+}
+.flexRadioDefault7+ .check {
+  
+ 
+  &::after {
+      margin-top: 0.2rem;
+    color: black;
+    font-family: FontAwesome;
+    border: 2px solid #519C66;
+    content: "\f00c";
+    font-size: 24px;
+    position: absolute;
+    top: 0px;
+    left: 90%;
+    transform: translateX(-50%);
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    background: #16330000;
+    box-shadow: 0px 2px 5px -2px hsla(0, 0%, 0%, 0.25);
+  }
+}
+.flexRadioDefault7:checked + .check{
+  &::after {
+      margin-top: 0.2rem;
+    top: 0px;
+    left: 90%;
+  background-color: #519C66;
+  color: white;
+}}
+.flexRadioDefault7#control_05:checked + .check {
+  background-color: #16330000;
+  
+}
+
+
+.form-check{
+  padding-left: 0rem;
+  width: 100%;
+}
+.form-check .form-check-input{
+  
+  float: right;
+}
+.check {
+  padding-left: 0;
+  background-color: #16330000;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  width: 100%;
+  height: 3rem;
+  color: #163300;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+}
+.next{
+background-color: #9FE870;
+border-radius: 8px;
+padding: 12px, 24px, 12px, 24px;
+color: #163300;
+width: -webkit-fill-available;
+}
+@media (width:320px) {
+  .next{
+    width: -webkit-fill-available;
+  }
+}
+@media (width:1024px) {
+ .flexRadioDefault7 + .check {
+  
+ 
+    &::after {
+        margin-top: 0.2rem;
+      color: black;
+      font-family: FontAwesome;
+      border: 2px solid #519C66;
+      content: "\f00c";
+      font-size: 15px;
+      position: absolute;
+      top: 0px;
+      left: 90%;
+      transform: translateX(-50%);
+      height: 25px;
+      width: 25px;
+      line-height: 25px;
+      text-align: center;
+      border-radius: 50%;
+      background: #16330000;
+      box-shadow: 0px 2px 5px -2px hsla(0, 0%, 0%, 0.25);
+    }
+  }
+  .launch{
+    width: 6rem !important;
+  }
+}
+/* width */
+::-webkit-scrollbar {
+width: 3px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #88888879;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #555;
+}
+.brand{
+color: #163300;
+font-family: 'Inter', sans-serif;
+font-weight: 500;
+font-size: 1.375rem; 
+}
+
+
+
+
+.check-location:checked{
+background-color: #9098A5;
+color: #9098A5;
+background-image: none;
+border: none;
+}
+.brand-radio label{
+color: #163300;
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+font-size: 1rem;  
+}
+.next:hover{
+  background-color: #9FE870;
+}

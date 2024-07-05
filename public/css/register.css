@@ -1,0 +1,27 @@
+.get{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #1633007A;
+}
+.because{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #163300AD;  
+}
+.track{
+    height: 25rem;
+}
+@media (max-width:425px) 
+{
+    .track{
+        height: 35rem;
+    }
+}
+@media (max-width:320px) 
+{
+    .track{
+        height: 37rem;
+    }
+}

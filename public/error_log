@@ -1,0 +1,6 @@
+[07-Mar-2024 07:51:56 UTC] PHP Fatal error:  'continue' not in the 'loop' or 'switch' context in /home/hitthezd/alkhawaja.hit-technology.net/app/Http/Controllers/Api/OrderController.php on line 222
+[07-Mar-2024 08:56:50 UTC] PHP Fatal error:  Constant expression contains invalid operations in /home/hitthezd/alkhawaja.hit-technology.net/app/Http/Controllers/Api/OrderController.php on line 29
+[07-Mar-2024 08:57:38 UTC] PHP Fatal error:  Constant expression contains invalid operations in /home/hitthezd/alkhawaja.hit-technology.net/app/Http/Controllers/Api/OrderController.php on line 30
+[07-Mar-2024 08:58:02 UTC] PHP Fatal error:  Constant expression contains invalid operations in /home/hitthezd/alkhawaja.hit-technology.net/app/Http/Controllers/Api/OrderController.php on line 30
+[07-Mar-2024 09:03:25 UTC] PHP Fatal error:  Constant expression contains invalid operations in /home/hitthezd/alkhawaja.hit-technology.net/app/Http/Controllers/Api/OrderController.php on line 30
+[13-Mar-2024 07:35:30 UTC] PHP Fatal error:  Cannot use App\Http\Controllers\Admin\CouponController as CouponController because the name is already in use in /home/hitthezd/alkhawaja.hit-technology.net/routes/web.php on line 13
